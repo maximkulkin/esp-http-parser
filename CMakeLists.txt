@@ -1,6 +1,3 @@
-set(COMPONENT_SRCDIRS
-  "http-parser"
-)
 
 set(COMPONENT_ADD_INCLUDEDIRS
   "http-parser/"
