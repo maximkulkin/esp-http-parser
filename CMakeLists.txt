@@ -1,8 +1,4 @@
-
-set(COMPONENT_ADD_INCLUDEDIRS
-  "http-parser/"
-  "."
+idf_component_register(
+    SRCS "http-parser/http_parser.c"
+    INCLUDE_DIRS "." "http-parser"
 )
-
-set(COMPONENT_NAME "http-parser")
-register_component()
